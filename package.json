@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1"
+  }
+}

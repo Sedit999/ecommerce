@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+    position: relative;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    visibility: visible;
+}
+
+/*Header*/
+a{
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.margin {
+    height: fit-content;
+}
+
+p {
+    height: fit-content;
+}
+
+#fav{
+    margin-left: 100px;
+}
+
+/*Hamburguesa*/
+.bars__menu {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.bars__menu span {
+    display: block;
+    width: 100%;
+    height:3px;
+    background: #fffffc;
+    margin-top: 6px;
+}
+
+/*Menu*/
+li {
+    list-style: none;
+}
+
+#menu {
+    display: flex;
+    height: 6%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#menu-list {
+    display: flex;
+    background-color: rgb(12, 12, 12);
+    border-radius: 30px;
+    width: 90%;
+    height:80%;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-opc {
+    background-color: rgb(12, 12, 12);
+    border-radius: 30px;
+    height: 90%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-opc1{
+    background-color: rgb(12, 12, 12);
+}
+#menu-opc2{
+    background-color: rgb(12, 12, 12);
+}
+#menu-opc3{
+    background-color: rgb(12, 12, 12);
+}
+
+.container{
+    width: max-content;
+    height: max-content;
+}
+
+/*Selecter*/
+#bot-menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+}
+
+#select{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+    border-top:1px solid rgb(32, 32, 32);
+    border-bottom: 1px solid rgb(32, 32, 32);
+    background-color: rgba(36, 36, 36, 0.849);
+}
+
+
+
+
+
+svg{
+    height: 1.5em;
+    width: 1.5em;
+}
+
+#location{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(41, 41, 41);
+}
+
+#location-txt{
+    height: fit-content;
+    background-color: rgb(41, 41, 41);
+}
