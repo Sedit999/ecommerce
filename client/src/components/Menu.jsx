@@ -15,21 +15,21 @@ function Menu() {
       <div id="menu">
         <ul id="menu-list">
           <li className="menu-opc">
-            <div className="container">
+            <div className="container1">
               <Link to="">
                 <span id="menu-opc1">Nuevos</span>
               </Link>
             </div>
           </li>
           <li className="menu-opc">
-            <div className="container">
+            <div className="container2">
               <Link to="">
                 <span id="menu-opc2">Proximos</span>
               </Link>
             </div>
           </li>
           <li className="menu-opc">
-            <div className="container">
+            <div className="container3">
               <Link to="">
                 <span id="menu-opc3">Ofertas</span>
               </Link>
